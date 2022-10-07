@@ -2,7 +2,11 @@
 ## Problem
 Travelling salesman problem is the following:  
 A list of cities and their coordinates are given, and we have to find the shortest path through all cities.  
-Complete detailed problem [FR]: [mh_projet.pdf](mh_projet.pdf)
+
+This repo represent the complete project given by Mr Alexandre Blansché.
+Our implemented solution is in the following folder: [tree/main/src/tsp/projects/frankenstein](tree/main/src/tsp/projects/frankenstein)
+
+Complete and detailed problem [FR]: [mh_projet.pdf](mh_projet.pdf)
 
 ## Tested problem instances
 - bier127
