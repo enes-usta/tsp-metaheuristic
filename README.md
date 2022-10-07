@@ -1,13 +1,27 @@
-# metaheuristique
-Résolution du TSP
-Le problème du voyageur de commerce (ou Travelling salesman problem) est le suivant :
+# Solving the TSP
+## Problem
+Travelling salesman problem is the following:  
+A list of cities and their coordinates are given, and we have to find the shortest path through all cities.  
+Complete detailed problem [FR]: [mh_projet.pdf](mh_projet.pdf)
 
-Une liste de ville nous est fournie, et il nous faut trouver le plus court chemin en passant par toutes les villes une seule fois.
+## Tested problem instances
+- bier127
+- fnl4461
+- gr666
 
-Nous avons pu, Enes USTA et Rafael BACHOURIAN chercher et implémenter un algorithme en fusionnant plusieurs heuristiques : 2-opt, Mutation, Croisements, Génétique, Recuit simulé.
+## Our heuristic Frankenstein
+We merged various heuristics into 1:
+- 2-opt
+- Mutation
+- Crossover
+- Genetic
+- Simulated annealing
 
-Nous avons donc nommé notre heuristique : Frankenstein
+You can read the complete report [FR]: [Frankenstein.pdf](Frankenstein.pdf)
 
+## Authors
+- Enes USTA [enes-usta](https://github.com/enes-usta)
+- Rafael BACHOURIAN [Reathe](https://github.com/Reathe)
 
-
-Pour plus de détails et explications, voir le rapport nommé Frankenstein.pdf
+## Supervising Professor
+- Mr Alexandre Blansché
